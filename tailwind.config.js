@@ -1,13 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./**/*.html'], // or your file path
-  safelist: [
-    {
-      pattern: /.*/, // match all classes
-    },
-  ],
+  content: [], // Leave empty for full build
+  safelist: [{ pattern: /.*/ }], // Include all classes
   theme: {
     extend: {},
   },
   plugins: [],
-}
+}   
